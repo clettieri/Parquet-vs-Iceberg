@@ -1,0 +1,1464 @@
+{
+  "fileMetaData" : {
+    "schema" : {
+      "name" : "schema",
+      "repetition" : "REPEATED",
+      "logicalTypeAnnotation" : null,
+      "id" : null,
+      "fields" : [ {
+        "name" : "VendorID",
+        "repetition" : "OPTIONAL",
+        "logicalTypeAnnotation" : null,
+        "id" : null,
+        "primitive" : "INT64",
+        "length" : 0,
+        "decimalMeta" : null,
+        "columnOrder" : {
+          "columnOrderName" : "TYPE_DEFINED_ORDER"
+        }
+      }, {
+        "name" : "tpep_pickup_datetime",
+        "repetition" : "OPTIONAL",
+        "logicalTypeAnnotation" : {
+          "isAdjustedToUTC" : false,
+          "unit" : "MICROS"
+        },
+        "id" : null,
+        "primitive" : "INT64",
+        "length" : 0,
+        "decimalMeta" : null,
+        "columnOrder" : {
+          "columnOrderName" : "TYPE_DEFINED_ORDER"
+        }
+      }, {
+        "name" : "tpep_dropoff_datetime",
+        "repetition" : "OPTIONAL",
+        "logicalTypeAnnotation" : {
+          "isAdjustedToUTC" : false,
+          "unit" : "MICROS"
+        },
+        "id" : null,
+        "primitive" : "INT64",
+        "length" : 0,
+        "decimalMeta" : null,
+        "columnOrder" : {
+          "columnOrderName" : "TYPE_DEFINED_ORDER"
+        }
+      }, {
+        "name" : "passenger_count",
+        "repetition" : "OPTIONAL",
+        "logicalTypeAnnotation" : null,
+        "id" : null,
+        "primitive" : "DOUBLE",
+        "length" : 0,
+        "decimalMeta" : null,
+        "columnOrder" : {
+          "columnOrderName" : "TYPE_DEFINED_ORDER"
+        }
+      }, {
+        "name" : "trip_distance",
+        "repetition" : "OPTIONAL",
+        "logicalTypeAnnotation" : null,
+        "id" : null,
+        "primitive" : "DOUBLE",
+        "length" : 0,
+        "decimalMeta" : null,
+        "columnOrder" : {
+          "columnOrderName" : "TYPE_DEFINED_ORDER"
+        }
+      }, {
+        "name" : "RatecodeID",
+        "repetition" : "OPTIONAL",
+        "logicalTypeAnnotation" : null,
+        "id" : null,
+        "primitive" : "DOUBLE",
+        "length" : 0,
+        "decimalMeta" : null,
+        "columnOrder" : {
+          "columnOrderName" : "TYPE_DEFINED_ORDER"
+        }
+      }, {
+        "name" : "store_and_fwd_flag",
+        "repetition" : "OPTIONAL",
+        "logicalTypeAnnotation" : { },
+        "id" : null,
+        "primitive" : "BINARY",
+        "length" : 0,
+        "decimalMeta" : null,
+        "columnOrder" : {
+          "columnOrderName" : "TYPE_DEFINED_ORDER"
+        }
+      }, {
+        "name" : "PULocationID",
+        "repetition" : "OPTIONAL",
+        "logicalTypeAnnotation" : null,
+        "id" : null,
+        "primitive" : "INT64",
+        "length" : 0,
+        "decimalMeta" : null,
+        "columnOrder" : {
+          "columnOrderName" : "TYPE_DEFINED_ORDER"
+        }
+      }, {
+        "name" : "DOLocationID",
+        "repetition" : "OPTIONAL",
+        "logicalTypeAnnotation" : null,
+        "id" : null,
+        "primitive" : "INT64",
+        "length" : 0,
+        "decimalMeta" : null,
+        "columnOrder" : {
+          "columnOrderName" : "TYPE_DEFINED_ORDER"
+        }
+      }, {
+        "name" : "payment_type",
+        "repetition" : "OPTIONAL",
+        "logicalTypeAnnotation" : null,
+        "id" : null,
+        "primitive" : "INT64",
+        "length" : 0,
+        "decimalMeta" : null,
+        "columnOrder" : {
+          "columnOrderName" : "TYPE_DEFINED_ORDER"
+        }
+      }, {
+        "name" : "fare_amount",
+        "repetition" : "OPTIONAL",
+        "logicalTypeAnnotation" : null,
+        "id" : null,
+        "primitive" : "DOUBLE",
+        "length" : 0,
+        "decimalMeta" : null,
+        "columnOrder" : {
+          "columnOrderName" : "TYPE_DEFINED_ORDER"
+        }
+      }, {
+        "name" : "extra",
+        "repetition" : "OPTIONAL",
+        "logicalTypeAnnotation" : null,
+        "id" : null,
+        "primitive" : "DOUBLE",
+        "length" : 0,
+        "decimalMeta" : null,
+        "columnOrder" : {
+          "columnOrderName" : "TYPE_DEFINED_ORDER"
+        }
+      }, {
+        "name" : "mta_tax",
+        "repetition" : "OPTIONAL",
+        "logicalTypeAnnotation" : null,
+        "id" : null,
+        "primitive" : "DOUBLE",
+        "length" : 0,
+        "decimalMeta" : null,
+        "columnOrder" : {
+          "columnOrderName" : "TYPE_DEFINED_ORDER"
+        }
+      }, {
+        "name" : "tip_amount",
+        "repetition" : "OPTIONAL",
+        "logicalTypeAnnotation" : null,
+        "id" : null,
+        "primitive" : "DOUBLE",
+        "length" : 0,
+        "decimalMeta" : null,
+        "columnOrder" : {
+          "columnOrderName" : "TYPE_DEFINED_ORDER"
+        }
+      }, {
+        "name" : "tolls_amount",
+        "repetition" : "OPTIONAL",
+        "logicalTypeAnnotation" : null,
+        "id" : null,
+        "primitive" : "DOUBLE",
+        "length" : 0,
+        "decimalMeta" : null,
+        "columnOrder" : {
+          "columnOrderName" : "TYPE_DEFINED_ORDER"
+        }
+      }, {
+        "name" : "improvement_surcharge",
+        "repetition" : "OPTIONAL",
+        "logicalTypeAnnotation" : null,
+        "id" : null,
+        "primitive" : "DOUBLE",
+        "length" : 0,
+        "decimalMeta" : null,
+        "columnOrder" : {
+          "columnOrderName" : "TYPE_DEFINED_ORDER"
+        }
+      }, {
+        "name" : "total_amount",
+        "repetition" : "OPTIONAL",
+        "logicalTypeAnnotation" : null,
+        "id" : null,
+        "primitive" : "DOUBLE",
+        "length" : 0,
+        "decimalMeta" : null,
+        "columnOrder" : {
+          "columnOrderName" : "TYPE_DEFINED_ORDER"
+        }
+      }, {
+        "name" : "congestion_surcharge",
+        "repetition" : "OPTIONAL",
+        "logicalTypeAnnotation" : null,
+        "id" : null,
+        "primitive" : "DOUBLE",
+        "length" : 0,
+        "decimalMeta" : null,
+        "columnOrder" : {
+          "columnOrderName" : "TYPE_DEFINED_ORDER"
+        }
+      }, {
+        "name" : "airport_fee",
+        "repetition" : "OPTIONAL",
+        "logicalTypeAnnotation" : null,
+        "id" : null,
+        "primitive" : "DOUBLE",
+        "length" : 0,
+        "decimalMeta" : null,
+        "columnOrder" : {
+          "columnOrderName" : "TYPE_DEFINED_ORDER"
+        }
+      } ],
+      "indexByName" : {
+        "DOLocationID" : 8,
+        "PULocationID" : 7,
+        "RatecodeID" : 5,
+        "VendorID" : 0,
+        "airport_fee" : 18,
+        "congestion_surcharge" : 17,
+        "extra" : 11,
+        "fare_amount" : 10,
+        "improvement_surcharge" : 15,
+        "mta_tax" : 12,
+        "passenger_count" : 3,
+        "payment_type" : 9,
+        "store_and_fwd_flag" : 6,
+        "tip_amount" : 13,
+        "tolls_amount" : 14,
+        "total_amount" : 16,
+        "tpep_dropoff_datetime" : 2,
+        "tpep_pickup_datetime" : 1,
+        "trip_distance" : 4
+      }
+    },
+    "keyValueMetaData" : {
+      "ARROW:schema" : "/////7gOAAAQAAAAAAAKAA4ABgAFAAgACgAAAAABBAAQAAAAAAAKAAwAAAAEAAgACgAAADQKAAAEAAAAAQAAAAwAAAAIAAwABAAIAAgAAAAIAAAAEAAAAAYAAABwYW5kYXMAAPwJAAB7ImluZGV4X2NvbHVtbnMiOiBbXSwgImNvbHVtbl9pbmRleGVzIjogW10sICJjb2x1bW5zIjogW3sibmFtZSI6ICJWZW5kb3JJRCIsICJmaWVsZF9uYW1lIjogIlZlbmRvcklEIiwgInBhbmRhc190eXBlIjogImludDY0IiwgIm51bXB5X3R5cGUiOiAiaW50NjQiLCAibWV0YWRhdGEiOiBudWxsfSwgeyJuYW1lIjogInRwZXBfcGlja3VwX2RhdGV0aW1lIiwgImZpZWxkX25hbWUiOiAidHBlcF9waWNrdXBfZGF0ZXRpbWUiLCAicGFuZGFzX3R5cGUiOiAiZGF0ZXRpbWUiLCAibnVtcHlfdHlwZSI6ICJkYXRldGltZTY0W25zXSIsICJtZXRhZGF0YSI6IG51bGx9LCB7Im5hbWUiOiAidHBlcF9kcm9wb2ZmX2RhdGV0aW1lIiwgImZpZWxkX25hbWUiOiAidHBlcF9kcm9wb2ZmX2RhdGV0aW1lIiwgInBhbmRhc190eXBlIjogImRhdGV0aW1lIiwgIm51bXB5X3R5cGUiOiAiZGF0ZXRpbWU2NFtuc10iLCAibWV0YWRhdGEiOiBudWxsfSwgeyJuYW1lIjogInBhc3Nlbmdlcl9jb3VudCIsICJmaWVsZF9uYW1lIjogInBhc3Nlbmdlcl9jb3VudCIsICJwYW5kYXNfdHlwZSI6ICJmbG9hdDY0IiwgIm51bXB5X3R5cGUiOiAiZmxvYXQ2NCIsICJtZXRhZGF0YSI6IG51bGx9LCB7Im5hbWUiOiAidHJpcF9kaXN0YW5jZSIsICJmaWVsZF9uYW1lIjogInRyaXBfZGlzdGFuY2UiLCAicGFuZGFzX3R5cGUiOiAiZmxvYXQ2NCIsICJudW1weV90eXBlIjogImZsb2F0NjQiLCAibWV0YWRhdGEiOiBudWxsfSwgeyJuYW1lIjogIlJhdGVjb2RlSUQiLCAiZmllbGRfbmFtZSI6ICJSYXRlY29kZUlEIiwgInBhbmRhc190eXBlIjogImZsb2F0NjQiLCAibnVtcHlfdHlwZSI6ICJmbG9hdDY0IiwgIm1ldGFkYXRhIjogbnVsbH0sIHsibmFtZSI6ICJzdG9yZV9hbmRfZndkX2ZsYWciLCAiZmllbGRfbmFtZSI6ICJzdG9yZV9hbmRfZndkX2ZsYWciLCAicGFuZGFzX3R5cGUiOiAidW5pY29kZSIsICJudW1weV90eXBlIjogIm9iamVjdCIsICJtZXRhZGF0YSI6IG51bGx9LCB7Im5hbWUiOiAiUFVMb2NhdGlvbklEIiwgImZpZWxkX25hbWUiOiAiUFVMb2NhdGlvbklEIiwgInBhbmRhc190eXBlIjogImludDY0IiwgIm51bXB5X3R5cGUiOiAiaW50NjQiLCAibWV0YWRhdGEiOiBudWxsfSwgeyJuYW1lIjogIkRPTG9jYXRpb25JRCIsICJmaWVsZF9uYW1lIjogIkRPTG9jYXRpb25JRCIsICJwYW5kYXNfdHlwZSI6ICJpbnQ2NCIsICJudW1weV90eXBlIjogImludDY0IiwgIm1ldGFkYXRhIjogbnVsbH0sIHsibmFtZSI6ICJwYXltZW50X3R5cGUiLCAiZmllbGRfbmFtZSI6ICJwYXltZW50X3R5cGUiLCAicGFuZGFzX3R5cGUiOiAiaW50NjQiLCAibnVtcHlfdHlwZSI6ICJpbnQ2NCIsICJtZXRhZGF0YSI6IG51bGx9LCB7Im5hbWUiOiAiZmFyZV9hbW91bnQiLCAiZmllbGRfbmFtZSI6ICJmYXJlX2Ftb3VudCIsICJwYW5kYXNfdHlwZSI6ICJmbG9hdDY0IiwgIm51bXB5X3R5cGUiOiAiZmxvYXQ2NCIsICJtZXRhZGF0YSI6IG51bGx9LCB7Im5hbWUiOiAiZXh0cmEiLCAiZmllbGRfbmFtZSI6ICJleHRyYSIsICJwYW5kYXNfdHlwZSI6ICJmbG9hdDY0IiwgIm51bXB5X3R5cGUiOiAiZmxvYXQ2NCIsICJtZXRhZGF0YSI6IG51bGx9LCB7Im5hbWUiOiAibXRhX3RheCIsICJmaWVsZF9uYW1lIjogIm10YV90YXgiLCAicGFuZGFzX3R5cGUiOiAiZmxvYXQ2NCIsICJudW1weV90eXBlIjogImZsb2F0NjQiLCAibWV0YWRhdGEiOiBudWxsfSwgeyJuYW1lIjogInRpcF9hbW91bnQiLCAiZmllbGRfbmFtZSI6ICJ0aXBfYW1vdW50IiwgInBhbmRhc190eXBlIjogImZsb2F0NjQiLCAibnVtcHlfdHlwZSI6ICJmbG9hdDY0IiwgIm1ldGFkYXRhIjogbnVsbH0sIHsibmFtZSI6ICJ0b2xsc19hbW91bnQiLCAiZmllbGRfbmFtZSI6ICJ0b2xsc19hbW91bnQiLCAicGFuZGFzX3R5cGUiOiAiZmxvYXQ2NCIsICJudW1weV90eXBlIjogImZsb2F0NjQiLCAibWV0YWRhdGEiOiBudWxsfSwgeyJuYW1lIjogImltcHJvdmVtZW50X3N1cmNoYXJnZSIsICJmaWVsZF9uYW1lIjogImltcHJvdmVtZW50X3N1cmNoYXJnZSIsICJwYW5kYXNfdHlwZSI6ICJmbG9hdDY0IiwgIm51bXB5X3R5cGUiOiAiZmxvYXQ2NCIsICJtZXRhZGF0YSI6IG51bGx9LCB7Im5hbWUiOiAidG90YWxfYW1vdW50IiwgImZpZWxkX25hbWUiOiAidG90YWxfYW1vdW50IiwgInBhbmRhc190eXBlIjogImZsb2F0NjQiLCAibnVtcHlfdHlwZSI6ICJmbG9hdDY0IiwgIm1ldGFkYXRhIjogbnVsbH0sIHsibmFtZSI6ICJjb25nZXN0aW9uX3N1cmNoYXJnZSIsICJmaWVsZF9uYW1lIjogImNvbmdlc3Rpb25fc3VyY2hhcmdlIiwgInBhbmRhc190eXBlIjogImZsb2F0NjQiLCAibnVtcHlfdHlwZSI6ICJmbG9hdDY0IiwgIm1ldGFkYXRhIjogbnVsbH0sIHsibmFtZSI6ICJhaXJwb3J0X2ZlZSIsICJmaWVsZF9uYW1lIjogImFpcnBvcnRfZmVlIiwgInBhbmRhc190eXBlIjogImZsb2F0NjQiLCAibnVtcHlfdHlwZSI6ICJmbG9hdDY0IiwgIm1ldGFkYXRhIjogbnVsbH1dLCAiY3JlYXRvciI6IHsibGlicmFyeSI6ICJweWFycm93IiwgInZlcnNpb24iOiAiOC4wLjAifSwgInBhbmRhc192ZXJzaW9uIjogIjEuMi4zIn0AAAAAEwAAABgEAADEAwAAhAMAAEwDAAAUAwAA4AIAAKQCAABoAgAALAIAAPABAAC8AQAAjAEAAFwBAAAoAQAA8AAAALAAAAB4AAAAOAAAAAQAAABE/P//AAABAxAAAAAcAAAABAAAAAAAAAALAAAAYWlycG9ydF9mZWUAevz//wAAAgB0/P//AAABAxAAAAAoAAAABAAAAAAAAAAUAAAAY29uZ2VzdGlvbl9zdXJjaGFyZ2UAAAAAtvz//wAAAgCw/P//AAABAxAAAAAgAAAABAAAAAAAAAAMAAAAdG90YWxfYW1vdW50AAAAAOr8//8AAAIA5Pz//wAAAQMQAAAAKAAAAAQAAAAAAAAAFQAAAGltcHJvdmVtZW50X3N1cmNoYXJnZQAAACb9//8AAAIAIP3//wAAAQMQAAAAIAAAAAQAAAAAAAAADAAAAHRvbGxzX2Ftb3VudAAAAABa/f//AAACAFT9//8AAAEDEAAAABwAAAAEAAAAAAAAAAoAAAB0aXBfYW1vdW50AACK/f//AAACAIT9//8AAAEDEAAAABgAAAAEAAAAAAAAAAcAAABtdGFfdGF4ALb9//8AAAIAsP3//wAAAQMQAAAAGAAAAAQAAAAAAAAABQAAAGV4dHJhAAAA4v3//wAAAgDc/f//AAABAxAAAAAcAAAABAAAAAAAAAALAAAAZmFyZV9hbW91bnQAEv7//wAAAgAM/v//AAABAhAAAAAgAAAABAAAAAAAAAAMAAAAcGF5bWVudF90eXBlAAAAAAD+//8AAAABQAAAAET+//8AAAECEAAAACAAAAAEAAAAAAAAAAwAAABET0xvY2F0aW9uSUQAAAAAOP7//wAAAAFAAAAAfP7//wAAAQIQAAAAIAAAAAQAAAAAAAAADAAAAFBVTG9jYXRpb25JRAAAAABw/v//AAAAAUAAAAC0/v//AAABBRAAAAAoAAAABAAAAAAAAAASAAAAc3RvcmVfYW5kX2Z3ZF9mbGFnAAAEAAQABAAAAOz+//8AAAEDEAAAABwAAAAEAAAAAAAAAAoAAABSYXRlY29kZUlEAAAi////AAACABz///8AAAEDEAAAACAAAAAEAAAAAAAAAA0AAAB0cmlwX2Rpc3RhbmNlAAAAVv///wAAAgBQ////AAABAxAAAAAgAAAABAAAAAAAAAAPAAAAcGFzc2VuZ2VyX2NvdW50AIr///8AAAIAhP///wAAAQoQAAAAKAAAAAQAAAAAAAAAFQAAAHRwZXBfZHJvcG9mZl9kYXRldGltZQAAAMb///8AAAMAwP///wAAAQoQAAAALAAAAAQAAAAAAAAAFAAAAHRwZXBfcGlja3VwX2RhdGV0aW1lAAAGAAgABgAGAAAAAAADABAAFAAIAAYABwAMAAAAEAAQAAAAAAABAhAAAAAkAAAABAAAAAAAAAAIAAAAVmVuZG9ySUQAAAAACAAMAAgABwAIAAAAAAAAAUAAAAA=",
+      "pandas" : "{\"index_columns\": [], \"column_indexes\": [], \"columns\": [{\"name\": \"VendorID\", \"field_name\": \"VendorID\", \"pandas_type\": \"int64\", \"numpy_type\": \"int64\", \"metadata\": null}, {\"name\": \"tpep_pickup_datetime\", \"field_name\": \"tpep_pickup_datetime\", \"pandas_type\": \"datetime\", \"numpy_type\": \"datetime64[ns]\", \"metadata\": null}, {\"name\": \"tpep_dropoff_datetime\", \"field_name\": \"tpep_dropoff_datetime\", \"pandas_type\": \"datetime\", \"numpy_type\": \"datetime64[ns]\", \"metadata\": null}, {\"name\": \"passenger_count\", \"field_name\": \"passenger_count\", \"pandas_type\": \"float64\", \"numpy_type\": \"float64\", \"metadata\": null}, {\"name\": \"trip_distance\", \"field_name\": \"trip_distance\", \"pandas_type\": \"float64\", \"numpy_type\": \"float64\", \"metadata\": null}, {\"name\": \"RatecodeID\", \"field_name\": \"RatecodeID\", \"pandas_type\": \"float64\", \"numpy_type\": \"float64\", \"metadata\": null}, {\"name\": \"store_and_fwd_flag\", \"field_name\": \"store_and_fwd_flag\", \"pandas_type\": \"unicode\", \"numpy_type\": \"object\", \"metadata\": null}, {\"name\": \"PULocationID\", \"field_name\": \"PULocationID\", \"pandas_type\": \"int64\", \"numpy_type\": \"int64\", \"metadata\": null}, {\"name\": \"DOLocationID\", \"field_name\": \"DOLocationID\", \"pandas_type\": \"int64\", \"numpy_type\": \"int64\", \"metadata\": null}, {\"name\": \"payment_type\", \"field_name\": \"payment_type\", \"pandas_type\": \"int64\", \"numpy_type\": \"int64\", \"metadata\": null}, {\"name\": \"fare_amount\", \"field_name\": \"fare_amount\", \"pandas_type\": \"float64\", \"numpy_type\": \"float64\", \"metadata\": null}, {\"name\": \"extra\", \"field_name\": \"extra\", \"pandas_type\": \"float64\", \"numpy_type\": \"float64\", \"metadata\": null}, {\"name\": \"mta_tax\", \"field_name\": \"mta_tax\", \"pandas_type\": \"float64\", \"numpy_type\": \"float64\", \"metadata\": null}, {\"name\": \"tip_amount\", \"field_name\": \"tip_amount\", \"pandas_type\": \"float64\", \"numpy_type\": \"float64\", \"metadata\": null}, {\"name\": \"tolls_amount\", \"field_name\": \"tolls_amount\", \"pandas_type\": \"float64\", \"numpy_type\": \"float64\", \"metadata\": null}, {\"name\": \"improvement_surcharge\", \"field_name\": \"improvement_surcharge\", \"pandas_type\": \"float64\", \"numpy_type\": \"float64\", \"metadata\": null}, {\"name\": \"total_amount\", \"field_name\": \"total_amount\", \"pandas_type\": \"float64\", \"numpy_type\": \"float64\", \"metadata\": null}, {\"name\": \"congestion_surcharge\", \"field_name\": \"congestion_surcharge\", \"pandas_type\": \"float64\", \"numpy_type\": \"float64\", \"metadata\": null}, {\"name\": \"airport_fee\", \"field_name\": \"airport_fee\", \"pandas_type\": \"float64\", \"numpy_type\": \"float64\", \"metadata\": null}], \"creator\": {\"library\": \"pyarrow\", \"version\": \"8.0.0\"}, \"pandas_version\": \"1.2.3\"}"
+    },
+    "createdBy" : "parquet-cpp-arrow version 8.0.0",
+    "fileDecryptor" : null,
+    "encryptionType" : "UNENCRYPTED"
+  },
+  "blocks" : [ {
+    "columns" : [ {
+      "rowGroupOrdinal" : 0,
+      "encodingStats" : {
+        "dictStats" : {
+          "PLAIN_DICTIONARY" : 1
+        },
+        "dataStats" : {
+          "PLAIN_DICTIONARY" : 1
+        },
+        "usesV2Pages" : false
+      },
+      "properties" : {
+        "codec" : "GZIP",
+        "path" : {
+          "p" : [ "VendorID" ]
+        },
+        "type" : {
+          "name" : "VendorID",
+          "repetition" : "OPTIONAL",
+          "logicalTypeAnnotation" : null,
+          "id" : null,
+          "primitive" : "INT64",
+          "length" : 0,
+          "decimalMeta" : null,
+          "columnOrder" : {
+            "columnOrderName" : "TYPE_DEFINED_ORDER"
+          }
+        },
+        "encodings" : [ "RLE", "PLAIN_DICTIONARY", "PLAIN" ]
+      },
+      "columnIndexReference" : null,
+      "offsetIndexReference" : null,
+      "bloomFilterOffset" : -1,
+      "firstDataPage" : -2147483604,
+      "dictionaryPageOffset" : -2147483644,
+      "valueCount" : -2144416882,
+      "totalSize" : -2147138001,
+      "totalUncompressedSize" : -2147021234,
+      "statistics" : {
+        "type" : {
+          "name" : "VendorID",
+          "repetition" : "OPTIONAL",
+          "logicalTypeAnnotation" : null,
+          "id" : null,
+          "primitive" : "INT64",
+          "length" : 0,
+          "decimalMeta" : null,
+          "columnOrder" : {
+            "columnOrderName" : "TYPE_DEFINED_ORDER"
+          }
+        },
+        "comparator" : { },
+        "hasNonNullValue" : true,
+        "num_nulls" : 0,
+        "stringifier" : {
+          "name" : "DEFAULT_STRINGIFIER",
+          "digits" : "0123456789ABCDEF"
+        },
+        "max" : 2,
+        "min" : 1
+      }
+    }, {
+      "rowGroupOrdinal" : 0,
+      "encodingStats" : {
+        "dictStats" : {
+          "PLAIN_DICTIONARY" : 1
+        },
+        "dataStats" : {
+          "PLAIN" : 22,
+          "PLAIN_DICTIONARY" : 1
+        },
+        "usesV2Pages" : false
+      },
+      "properties" : {
+        "codec" : "GZIP",
+        "path" : {
+          "p" : [ "tpep_pickup_datetime" ]
+        },
+        "type" : {
+          "name" : "tpep_pickup_datetime",
+          "repetition" : "OPTIONAL",
+          "logicalTypeAnnotation" : {
+            "isAdjustedToUTC" : false,
+            "unit" : "MICROS"
+          },
+          "id" : null,
+          "primitive" : "INT64",
+          "length" : 0,
+          "decimalMeta" : null,
+          "columnOrder" : {
+            "columnOrderName" : "TYPE_DEFINED_ORDER"
+          }
+        },
+        "encodings" : [ "RLE", "PLAIN_DICTIONARY", "PLAIN" ]
+      },
+      "columnIndexReference" : null,
+      "offsetIndexReference" : null,
+      "bloomFilterOffset" : -1,
+      "firstDataPage" : -2146560503,
+      "dictionaryPageOffset" : -2147137893,
+      "valueCount" : -2144416882,
+      "totalSize" : -2136066557,
+      "totalUncompressedSize" : -2123146321,
+      "statistics" : {
+        "type" : {
+          "name" : "tpep_pickup_datetime",
+          "repetition" : "OPTIONAL",
+          "logicalTypeAnnotation" : {
+            "isAdjustedToUTC" : false,
+            "unit" : "MICROS"
+          },
+          "id" : null,
+          "primitive" : "INT64",
+          "length" : 0,
+          "decimalMeta" : null,
+          "columnOrder" : {
+            "columnOrderName" : "TYPE_DEFINED_ORDER"
+          }
+        },
+        "comparator" : { },
+        "hasNonNullValue" : true,
+        "num_nulls" : 0,
+        "stringifier" : {
+          "name" : "TIMESTAMP_MICROS_STRINGIFIER",
+          "formatter" : {
+            "locale" : "en_US",
+            "decimalStyle" : {
+              "zeroDigit" : "0",
+              "positiveSign" : "+",
+              "negativeSign" : "-",
+              "decimalSeparator" : "."
+            },
+            "resolverStyle" : "SMART",
+            "resolverFields" : null,
+            "zone" : "Z",
+            "chronology" : null
+          }
+        },
+        "max" : 1675213013000000,
+        "min" : 1230764502000000
+      }
+    }, {
+      "rowGroupOrdinal" : 0,
+      "encodingStats" : {
+        "dictStats" : {
+          "PLAIN_DICTIONARY" : 1
+        },
+        "dataStats" : {
+          "PLAIN" : 22,
+          "PLAIN_DICTIONARY" : 1
+        },
+        "usesV2Pages" : false
+      },
+      "properties" : {
+        "codec" : "GZIP",
+        "path" : {
+          "p" : [ "tpep_dropoff_datetime" ]
+        },
+        "type" : {
+          "name" : "tpep_dropoff_datetime",
+          "repetition" : "OPTIONAL",
+          "logicalTypeAnnotation" : {
+            "isAdjustedToUTC" : false,
+            "unit" : "MICROS"
+          },
+          "id" : null,
+          "primitive" : "INT64",
+          "length" : 0,
+          "decimalMeta" : null,
+          "columnOrder" : {
+            "columnOrderName" : "TYPE_DEFINED_ORDER"
+          }
+        },
+        "encodings" : [ "RLE", "PLAIN_DICTIONARY", "PLAIN" ]
+      },
+      "columnIndexReference" : null,
+      "offsetIndexReference" : null,
+      "bloomFilterOffset" : -1,
+      "firstDataPage" : -2135133843,
+      "dictionaryPageOffset" : -2135720671,
+      "valueCount" : -2144416882,
+      "totalSize" : -2135745005,
+      "totalUncompressedSize" : -2123143425,
+      "statistics" : {
+        "type" : {
+          "name" : "tpep_dropoff_datetime",
+          "repetition" : "OPTIONAL",
+          "logicalTypeAnnotation" : {
+            "isAdjustedToUTC" : false,
+            "unit" : "MICROS"
+          },
+          "id" : null,
+          "primitive" : "INT64",
+          "length" : 0,
+          "decimalMeta" : null,
+          "columnOrder" : {
+            "columnOrderName" : "TYPE_DEFINED_ORDER"
+          }
+        },
+        "comparator" : { },
+        "hasNonNullValue" : true,
+        "num_nulls" : 0,
+        "stringifier" : {
+          "name" : "TIMESTAMP_MICROS_STRINGIFIER",
+          "formatter" : {
+            "locale" : "en_US",
+            "decimalStyle" : {
+              "zeroDigit" : "0",
+              "positiveSign" : "+",
+              "negativeSign" : "-",
+              "decimalSeparator" : "."
+            },
+            "resolverStyle" : "SMART",
+            "resolverFields" : null,
+            "zone" : "Z",
+            "chronology" : null
+          }
+        },
+        "max" : 1675330127000000,
+        "min" : 1230820151000000
+      }
+    }, {
+      "rowGroupOrdinal" : 0,
+      "encodingStats" : {
+        "dictStats" : {
+          "PLAIN_DICTIONARY" : 1
+        },
+        "dataStats" : {
+          "PLAIN_DICTIONARY" : 2
+        },
+        "usesV2Pages" : false
+      },
+      "properties" : {
+        "codec" : "GZIP",
+        "path" : {
+          "p" : [ "passenger_count" ]
+        },
+        "type" : {
+          "name" : "passenger_count",
+          "repetition" : "OPTIONAL",
+          "logicalTypeAnnotation" : null,
+          "id" : null,
+          "primitive" : "DOUBLE",
+          "length" : 0,
+          "decimalMeta" : null,
+          "columnOrder" : {
+            "columnOrderName" : "TYPE_DEFINED_ORDER"
+          }
+        },
+        "encodings" : [ "RLE", "PLAIN_DICTIONARY", "PLAIN" ]
+      },
+      "columnIndexReference" : null,
+      "offsetIndexReference" : null,
+      "bloomFilterOffset" : -1,
+      "firstDataPage" : -2123981831,
+      "dictionaryPageOffset" : -2123981894,
+      "valueCount" : -2144416882,
+      "totalSize" : -2146881808,
+      "totalUncompressedSize" : -2146167424,
+      "statistics" : {
+        "type" : {
+          "name" : "passenger_count",
+          "repetition" : "OPTIONAL",
+          "logicalTypeAnnotation" : null,
+          "id" : null,
+          "primitive" : "DOUBLE",
+          "length" : 0,
+          "decimalMeta" : null,
+          "columnOrder" : {
+            "columnOrderName" : "TYPE_DEFINED_ORDER"
+          }
+        },
+        "comparator" : { },
+        "hasNonNullValue" : true,
+        "num_nulls" : 71743,
+        "stringifier" : {
+          "name" : "DEFAULT_STRINGIFIER",
+          "digits" : "0123456789ABCDEF"
+        },
+        "max" : 9.0,
+        "min" : -0.0
+      }
+    }, {
+      "rowGroupOrdinal" : 0,
+      "encodingStats" : {
+        "dictStats" : {
+          "PLAIN_DICTIONARY" : 1
+        },
+        "dataStats" : {
+          "PLAIN_DICTIONARY" : 5
+        },
+        "usesV2Pages" : false
+      },
+      "properties" : {
+        "codec" : "GZIP",
+        "path" : {
+          "p" : [ "trip_distance" ]
+        },
+        "type" : {
+          "name" : "trip_distance",
+          "repetition" : "OPTIONAL",
+          "logicalTypeAnnotation" : null,
+          "id" : null,
+          "primitive" : "DOUBLE",
+          "length" : 0,
+          "decimalMeta" : null,
+          "columnOrder" : {
+            "columnOrderName" : "TYPE_DEFINED_ORDER"
+          }
+        },
+        "encodings" : [ "RLE", "PLAIN_DICTIONARY", "PLAIN" ]
+      },
+      "columnIndexReference" : null,
+      "offsetIndexReference" : null,
+      "bloomFilterOffset" : -1,
+      "firstDataPage" : -2123367796,
+      "dictionaryPageOffset" : -2123379933,
+      "valueCount" : -2144416882,
+      "totalSize" : -2143182177,
+      "totalUncompressedSize" : -2142701267,
+      "statistics" : {
+        "type" : {
+          "name" : "trip_distance",
+          "repetition" : "OPTIONAL",
+          "logicalTypeAnnotation" : null,
+          "id" : null,
+          "primitive" : "DOUBLE",
+          "length" : 0,
+          "decimalMeta" : null,
+          "columnOrder" : {
+            "columnOrderName" : "TYPE_DEFINED_ORDER"
+          }
+        },
+        "comparator" : { },
+        "hasNonNullValue" : true,
+        "num_nulls" : 0,
+        "stringifier" : {
+          "name" : "DEFAULT_STRINGIFIER",
+          "digits" : "0123456789ABCDEF"
+        },
+        "max" : 258928.15,
+        "min" : -0.0
+      }
+    }, {
+      "rowGroupOrdinal" : 0,
+      "encodingStats" : {
+        "dictStats" : {
+          "PLAIN_DICTIONARY" : 1
+        },
+        "dataStats" : {
+          "PLAIN_DICTIONARY" : 2
+        },
+        "usesV2Pages" : false
+      },
+      "properties" : {
+        "codec" : "GZIP",
+        "path" : {
+          "p" : [ "RatecodeID" ]
+        },
+        "type" : {
+          "name" : "RatecodeID",
+          "repetition" : "OPTIONAL",
+          "logicalTypeAnnotation" : null,
+          "id" : null,
+          "primitive" : "DOUBLE",
+          "length" : 0,
+          "decimalMeta" : null,
+          "columnOrder" : {
+            "columnOrderName" : "TYPE_DEFINED_ORDER"
+          }
+        },
+        "encodings" : [ "RLE", "PLAIN_DICTIONARY", "PLAIN" ]
+      },
+      "columnIndexReference" : null,
+      "offsetIndexReference" : null,
+      "bloomFilterOffset" : -1,
+      "firstDataPage" : -2119078286,
+      "dictionaryPageOffset" : -2119078344,
+      "valueCount" : -2144416882,
+      "totalSize" : -2147265758,
+      "totalUncompressedSize" : -2146939202,
+      "statistics" : {
+        "type" : {
+          "name" : "RatecodeID",
+          "repetition" : "OPTIONAL",
+          "logicalTypeAnnotation" : null,
+          "id" : null,
+          "primitive" : "DOUBLE",
+          "length" : 0,
+          "decimalMeta" : null,
+          "columnOrder" : {
+            "columnOrderName" : "TYPE_DEFINED_ORDER"
+          }
+        },
+        "comparator" : { },
+        "hasNonNullValue" : true,
+        "num_nulls" : 71743,
+        "stringifier" : {
+          "name" : "DEFAULT_STRINGIFIER",
+          "digits" : "0123456789ABCDEF"
+        },
+        "max" : 99.0,
+        "min" : 1.0
+      }
+    }, {
+      "rowGroupOrdinal" : 0,
+      "encodingStats" : {
+        "dictStats" : {
+          "PLAIN_DICTIONARY" : 1
+        },
+        "dataStats" : {
+          "PLAIN_DICTIONARY" : 1
+        },
+        "usesV2Pages" : false
+      },
+      "properties" : {
+        "codec" : "GZIP",
+        "path" : {
+          "p" : [ "store_and_fwd_flag" ]
+        },
+        "type" : {
+          "name" : "store_and_fwd_flag",
+          "repetition" : "OPTIONAL",
+          "logicalTypeAnnotation" : { },
+          "id" : null,
+          "primitive" : "BINARY",
+          "length" : 0,
+          "decimalMeta" : null,
+          "columnOrder" : {
+            "columnOrderName" : "TYPE_DEFINED_ORDER"
+          }
+        },
+        "encodings" : [ "RLE", "PLAIN_DICTIONARY", "PLAIN" ]
+      },
+      "columnIndexReference" : null,
+      "offsetIndexReference" : null,
+      "bloomFilterOffset" : -1,
+      "firstDataPage" : -2118860297,
+      "dictionaryPageOffset" : -2118860339,
+      "valueCount" : -2144416882,
+      "totalSize" : -2147452823,
+      "totalUncompressedSize" : -2147413815,
+      "statistics" : {
+        "type" : {
+          "name" : "store_and_fwd_flag",
+          "repetition" : "OPTIONAL",
+          "logicalTypeAnnotation" : { },
+          "id" : null,
+          "primitive" : "BINARY",
+          "length" : 0,
+          "decimalMeta" : null,
+          "columnOrder" : {
+            "columnOrderName" : "TYPE_DEFINED_ORDER"
+          }
+        },
+        "comparator" : { },
+        "hasNonNullValue" : true,
+        "num_nulls" : 71743,
+        "stringifier" : {
+          "name" : "UTF8_STRINGIFIER"
+        },
+        "max" : {
+          "isBackingBytesReused" : true,
+          "value" : "WQ=="
+        },
+        "min" : {
+          "isBackingBytesReused" : true,
+          "value" : "Tg=="
+        }
+      }
+    }, {
+      "rowGroupOrdinal" : 0,
+      "encodingStats" : {
+        "dictStats" : {
+          "PLAIN_DICTIONARY" : 1
+        },
+        "dataStats" : {
+          "PLAIN_DICTIONARY" : 4
+        },
+        "usesV2Pages" : false
+      },
+      "properties" : {
+        "codec" : "GZIP",
+        "path" : {
+          "p" : [ "PULocationID" ]
+        },
+        "type" : {
+          "name" : "PULocationID",
+          "repetition" : "OPTIONAL",
+          "logicalTypeAnnotation" : null,
+          "id" : null,
+          "primitive" : "INT64",
+          "length" : 0,
+          "decimalMeta" : null,
+          "columnOrder" : {
+            "columnOrderName" : "TYPE_DEFINED_ORDER"
+          }
+        },
+        "encodings" : [ "RLE", "PLAIN_DICTIONARY", "PLAIN" ]
+      },
+      "columnIndexReference" : null,
+      "offsetIndexReference" : null,
+      "bloomFilterOffset" : -1,
+      "firstDataPage" : -2118828946,
+      "dictionaryPageOffset" : -2118829425,
+      "valueCount" : -2144416882,
+      "totalSize" : -2145212812,
+      "totalUncompressedSize" : -2144374617,
+      "statistics" : {
+        "type" : {
+          "name" : "PULocationID",
+          "repetition" : "OPTIONAL",
+          "logicalTypeAnnotation" : null,
+          "id" : null,
+          "primitive" : "INT64",
+          "length" : 0,
+          "decimalMeta" : null,
+          "columnOrder" : {
+            "columnOrderName" : "TYPE_DEFINED_ORDER"
+          }
+        },
+        "comparator" : { },
+        "hasNonNullValue" : true,
+        "num_nulls" : 0,
+        "stringifier" : {
+          "name" : "DEFAULT_STRINGIFIER",
+          "digits" : "0123456789ABCDEF"
+        },
+        "max" : 265,
+        "min" : 1
+      }
+    }, {
+      "rowGroupOrdinal" : 0,
+      "encodingStats" : {
+        "dictStats" : {
+          "PLAIN_DICTIONARY" : 1
+        },
+        "dataStats" : {
+          "PLAIN_DICTIONARY" : 4
+        },
+        "usesV2Pages" : false
+      },
+      "properties" : {
+        "codec" : "GZIP",
+        "path" : {
+          "p" : [ "DOLocationID" ]
+        },
+        "type" : {
+          "name" : "DOLocationID",
+          "repetition" : "OPTIONAL",
+          "logicalTypeAnnotation" : null,
+          "id" : null,
+          "primitive" : "INT64",
+          "length" : 0,
+          "decimalMeta" : null,
+          "columnOrder" : {
+            "columnOrderName" : "TYPE_DEFINED_ORDER"
+          }
+        },
+        "encodings" : [ "RLE", "PLAIN_DICTIONARY", "PLAIN" ]
+      },
+      "columnIndexReference" : null,
+      "offsetIndexReference" : null,
+      "bloomFilterOffset" : -1,
+      "firstDataPage" : -2116557969,
+      "dictionaryPageOffset" : -2116558472,
+      "valueCount" : -2144416882,
+      "totalSize" : -2144414934,
+      "totalUncompressedSize" : -2144025142,
+      "statistics" : {
+        "type" : {
+          "name" : "DOLocationID",
+          "repetition" : "OPTIONAL",
+          "logicalTypeAnnotation" : null,
+          "id" : null,
+          "primitive" : "INT64",
+          "length" : 0,
+          "decimalMeta" : null,
+          "columnOrder" : {
+            "columnOrderName" : "TYPE_DEFINED_ORDER"
+          }
+        },
+        "comparator" : { },
+        "hasNonNullValue" : true,
+        "num_nulls" : 0,
+        "stringifier" : {
+          "name" : "DEFAULT_STRINGIFIER",
+          "digits" : "0123456789ABCDEF"
+        },
+        "max" : 265,
+        "min" : 1
+      }
+    }, {
+      "rowGroupOrdinal" : 0,
+      "encodingStats" : {
+        "dictStats" : {
+          "PLAIN_DICTIONARY" : 1
+        },
+        "dataStats" : {
+          "PLAIN_DICTIONARY" : 2
+        },
+        "usesV2Pages" : false
+      },
+      "properties" : {
+        "codec" : "GZIP",
+        "path" : {
+          "p" : [ "payment_type" ]
+        },
+        "type" : {
+          "name" : "payment_type",
+          "repetition" : "OPTIONAL",
+          "logicalTypeAnnotation" : null,
+          "id" : null,
+          "primitive" : "INT64",
+          "length" : 0,
+          "decimalMeta" : null,
+          "columnOrder" : {
+            "columnOrderName" : "TYPE_DEFINED_ORDER"
+          }
+        },
+        "encodings" : [ "RLE", "PLAIN_DICTIONARY", "PLAIN" ]
+      },
+      "columnIndexReference" : null,
+      "offsetIndexReference" : null,
+      "bloomFilterOffset" : -1,
+      "firstDataPage" : -2113489595,
+      "dictionaryPageOffset" : -2113489641,
+      "valueCount" : -2144416882,
+      "totalSize" : -2147076352,
+      "totalUncompressedSize" : -2146729049,
+      "statistics" : {
+        "type" : {
+          "name" : "payment_type",
+          "repetition" : "OPTIONAL",
+          "logicalTypeAnnotation" : null,
+          "id" : null,
+          "primitive" : "INT64",
+          "length" : 0,
+          "decimalMeta" : null,
+          "columnOrder" : {
+            "columnOrderName" : "TYPE_DEFINED_ORDER"
+          }
+        },
+        "comparator" : { },
+        "hasNonNullValue" : true,
+        "num_nulls" : 0,
+        "stringifier" : {
+          "name" : "DEFAULT_STRINGIFIER",
+          "digits" : "0123456789ABCDEF"
+        },
+        "max" : 4,
+        "min" : 0
+      }
+    }, {
+      "rowGroupOrdinal" : 0,
+      "encodingStats" : {
+        "dictStats" : {
+          "PLAIN_DICTIONARY" : 1
+        },
+        "dataStats" : {
+          "PLAIN_DICTIONARY" : 5
+        },
+        "usesV2Pages" : false
+      },
+      "properties" : {
+        "codec" : "GZIP",
+        "path" : {
+          "p" : [ "fare_amount" ]
+        },
+        "type" : {
+          "name" : "fare_amount",
+          "repetition" : "OPTIONAL",
+          "logicalTypeAnnotation" : null,
+          "id" : null,
+          "primitive" : "DOUBLE",
+          "length" : 0,
+          "decimalMeta" : null,
+          "columnOrder" : {
+            "columnOrderName" : "TYPE_DEFINED_ORDER"
+          }
+        },
+        "encodings" : [ "RLE", "PLAIN_DICTIONARY", "PLAIN" ]
+      },
+      "columnIndexReference" : null,
+      "offsetIndexReference" : null,
+      "bloomFilterOffset" : -1,
+      "firstDataPage" : -2113062145,
+      "dictionaryPageOffset" : -2113082230,
+      "valueCount" : -2144416882,
+      "totalSize" : -2144391164,
+      "totalUncompressedSize" : -2142949777,
+      "statistics" : {
+        "type" : {
+          "name" : "fare_amount",
+          "repetition" : "OPTIONAL",
+          "logicalTypeAnnotation" : null,
+          "id" : null,
+          "primitive" : "DOUBLE",
+          "length" : 0,
+          "decimalMeta" : null,
+          "columnOrder" : {
+            "columnOrderName" : "TYPE_DEFINED_ORDER"
+          }
+        },
+        "comparator" : { },
+        "hasNonNullValue" : true,
+        "num_nulls" : 0,
+        "stringifier" : {
+          "name" : "DEFAULT_STRINGIFIER",
+          "digits" : "0123456789ABCDEF"
+        },
+        "max" : 1160.1,
+        "min" : -900.0
+      }
+    }, {
+      "rowGroupOrdinal" : 0,
+      "encodingStats" : {
+        "dictStats" : {
+          "PLAIN_DICTIONARY" : 1
+        },
+        "dataStats" : {
+          "PLAIN_DICTIONARY" : 3
+        },
+        "usesV2Pages" : false
+      },
+      "properties" : {
+        "codec" : "GZIP",
+        "path" : {
+          "p" : [ "extra" ]
+        },
+        "type" : {
+          "name" : "extra",
+          "repetition" : "OPTIONAL",
+          "logicalTypeAnnotation" : null,
+          "id" : null,
+          "primitive" : "DOUBLE",
+          "length" : 0,
+          "decimalMeta" : null,
+          "columnOrder" : {
+            "columnOrderName" : "TYPE_DEFINED_ORDER"
+          }
+        },
+        "encodings" : [ "RLE", "PLAIN_DICTIONARY", "PLAIN" ]
+      },
+      "columnIndexReference" : null,
+      "offsetIndexReference" : null,
+      "bloomFilterOffset" : -1,
+      "firstDataPage" : -2109989341,
+      "dictionaryPageOffset" : -2109989630,
+      "valueCount" : -2144416882,
+      "totalSize" : -2146718608,
+      "totalUncompressedSize" : -2145447823,
+      "statistics" : {
+        "type" : {
+          "name" : "extra",
+          "repetition" : "OPTIONAL",
+          "logicalTypeAnnotation" : null,
+          "id" : null,
+          "primitive" : "DOUBLE",
+          "length" : 0,
+          "decimalMeta" : null,
+          "columnOrder" : {
+            "columnOrderName" : "TYPE_DEFINED_ORDER"
+          }
+        },
+        "comparator" : { },
+        "hasNonNullValue" : true,
+        "num_nulls" : 0,
+        "stringifier" : {
+          "name" : "DEFAULT_STRINGIFIER",
+          "digits" : "0123456789ABCDEF"
+        },
+        "max" : 12.5,
+        "min" : -7.5
+      }
+    }, {
+      "rowGroupOrdinal" : 0,
+      "encodingStats" : {
+        "dictStats" : {
+          "PLAIN_DICTIONARY" : 1
+        },
+        "dataStats" : {
+          "PLAIN_DICTIONARY" : 2
+        },
+        "usesV2Pages" : false
+      },
+      "properties" : {
+        "codec" : "GZIP",
+        "path" : {
+          "p" : [ "mta_tax" ]
+        },
+        "type" : {
+          "name" : "mta_tax",
+          "repetition" : "OPTIONAL",
+          "logicalTypeAnnotation" : null,
+          "id" : null,
+          "primitive" : "DOUBLE",
+          "length" : 0,
+          "decimalMeta" : null,
+          "columnOrder" : {
+            "columnOrderName" : "TYPE_DEFINED_ORDER"
+          }
+        },
+        "encodings" : [ "RLE", "PLAIN_DICTIONARY", "PLAIN" ]
+      },
+      "columnIndexReference" : null,
+      "offsetIndexReference" : null,
+      "bloomFilterOffset" : -1,
+      "firstDataPage" : -2109224394,
+      "dictionaryPageOffset" : -2109224481,
+      "valueCount" : -2144416882,
+      "totalSize" : -2147398120,
+      "totalUncompressedSize" : -2147231418,
+      "statistics" : {
+        "type" : {
+          "name" : "mta_tax",
+          "repetition" : "OPTIONAL",
+          "logicalTypeAnnotation" : null,
+          "id" : null,
+          "primitive" : "DOUBLE",
+          "length" : 0,
+          "decimalMeta" : null,
+          "columnOrder" : {
+            "columnOrderName" : "TYPE_DEFINED_ORDER"
+          }
+        },
+        "comparator" : { },
+        "hasNonNullValue" : true,
+        "num_nulls" : 0,
+        "stringifier" : {
+          "name" : "DEFAULT_STRINGIFIER",
+          "digits" : "0123456789ABCDEF"
+        },
+        "max" : 53.16,
+        "min" : -0.5
+      }
+    }, {
+      "rowGroupOrdinal" : 0,
+      "encodingStats" : {
+        "dictStats" : {
+          "PLAIN_DICTIONARY" : 1
+        },
+        "dataStats" : {
+          "PLAIN_DICTIONARY" : 5
+        },
+        "usesV2Pages" : false
+      },
+      "properties" : {
+        "codec" : "GZIP",
+        "path" : {
+          "p" : [ "tip_amount" ]
+        },
+        "type" : {
+          "name" : "tip_amount",
+          "repetition" : "OPTIONAL",
+          "logicalTypeAnnotation" : null,
+          "id" : null,
+          "primitive" : "DOUBLE",
+          "length" : 0,
+          "decimalMeta" : null,
+          "columnOrder" : {
+            "columnOrderName" : "TYPE_DEFINED_ORDER"
+          }
+        },
+        "encodings" : [ "RLE", "PLAIN_DICTIONARY", "PLAIN" ]
+      },
+      "columnIndexReference" : null,
+      "offsetIndexReference" : null,
+      "bloomFilterOffset" : -1,
+      "firstDataPage" : -2109127483,
+      "dictionaryPageOffset" : -2109138843,
+      "valueCount" : -2144416882,
+      "totalSize" : -2144003918,
+      "totalUncompressedSize" : -2142845623,
+      "statistics" : {
+        "type" : {
+          "name" : "tip_amount",
+          "repetition" : "OPTIONAL",
+          "logicalTypeAnnotation" : null,
+          "id" : null,
+          "primitive" : "DOUBLE",
+          "length" : 0,
+          "decimalMeta" : null,
+          "columnOrder" : {
+            "columnOrderName" : "TYPE_DEFINED_ORDER"
+          }
+        },
+        "comparator" : { },
+        "hasNonNullValue" : true,
+        "num_nulls" : 0,
+        "stringifier" : {
+          "name" : "DEFAULT_STRINGIFIER",
+          "digits" : "0123456789ABCDEF"
+        },
+        "max" : 380.8,
+        "min" : -96.22
+      }
+    }, {
+      "rowGroupOrdinal" : 0,
+      "encodingStats" : {
+        "dictStats" : {
+          "PLAIN_DICTIONARY" : 1
+        },
+        "dataStats" : {
+          "PLAIN_DICTIONARY" : 4
+        },
+        "usesV2Pages" : false
+      },
+      "properties" : {
+        "codec" : "GZIP",
+        "path" : {
+          "p" : [ "tolls_amount" ]
+        },
+        "type" : {
+          "name" : "tolls_amount",
+          "repetition" : "OPTIONAL",
+          "logicalTypeAnnotation" : null,
+          "id" : null,
+          "primitive" : "DOUBLE",
+          "length" : 0,
+          "decimalMeta" : null,
+          "columnOrder" : {
+            "columnOrderName" : "TYPE_DEFINED_ORDER"
+          }
+        },
+        "encodings" : [ "RLE", "PLAIN_DICTIONARY", "PLAIN" ]
+      },
+      "columnIndexReference" : null,
+      "offsetIndexReference" : null,
+      "bloomFilterOffset" : -1,
+      "firstDataPage" : -2105656699,
+      "dictionaryPageOffset" : -2105658998,
+      "valueCount" : -2144416882,
+      "totalSize" : -2147120369,
+      "totalUncompressedSize" : -2145678716,
+      "statistics" : {
+        "type" : {
+          "name" : "tolls_amount",
+          "repetition" : "OPTIONAL",
+          "logicalTypeAnnotation" : null,
+          "id" : null,
+          "primitive" : "DOUBLE",
+          "length" : 0,
+          "decimalMeta" : null,
+          "columnOrder" : {
+            "columnOrderName" : "TYPE_DEFINED_ORDER"
+          }
+        },
+        "comparator" : { },
+        "hasNonNullValue" : true,
+        "num_nulls" : 0,
+        "stringifier" : {
+          "name" : "DEFAULT_STRINGIFIER",
+          "digits" : "0123456789ABCDEF"
+        },
+        "max" : 196.99,
+        "min" : -65.0
+      }
+    }, {
+      "rowGroupOrdinal" : 0,
+      "encodingStats" : {
+        "dictStats" : {
+          "PLAIN_DICTIONARY" : 1
+        },
+        "dataStats" : {
+          "PLAIN_DICTIONARY" : 2
+        },
+        "usesV2Pages" : false
+      },
+      "properties" : {
+        "codec" : "GZIP",
+        "path" : {
+          "p" : [ "improvement_surcharge" ]
+        },
+        "type" : {
+          "name" : "improvement_surcharge",
+          "repetition" : "OPTIONAL",
+          "logicalTypeAnnotation" : null,
+          "id" : null,
+          "primitive" : "DOUBLE",
+          "length" : 0,
+          "decimalMeta" : null,
+          "columnOrder" : {
+            "columnOrderName" : "TYPE_DEFINED_ORDER"
+          }
+        },
+        "encodings" : [ "RLE", "PLAIN_DICTIONARY", "PLAIN" ]
+      },
+      "columnIndexReference" : null,
+      "offsetIndexReference" : null,
+      "bloomFilterOffset" : -1,
+      "firstDataPage" : -2105295550,
+      "dictionaryPageOffset" : -2105295603,
+      "valueCount" : -2144416882,
+      "totalSize" : -2147428211,
+      "totalUncompressedSize" : -2147317386,
+      "statistics" : {
+        "type" : {
+          "name" : "improvement_surcharge",
+          "repetition" : "OPTIONAL",
+          "logicalTypeAnnotation" : null,
+          "id" : null,
+          "primitive" : "DOUBLE",
+          "length" : 0,
+          "decimalMeta" : null,
+          "columnOrder" : {
+            "columnOrderName" : "TYPE_DEFINED_ORDER"
+          }
+        },
+        "comparator" : { },
+        "hasNonNullValue" : true,
+        "num_nulls" : 0,
+        "stringifier" : {
+          "name" : "DEFAULT_STRINGIFIER",
+          "digits" : "0123456789ABCDEF"
+        },
+        "max" : 1.0,
+        "min" : -1.0
+      }
+    }, {
+      "rowGroupOrdinal" : 0,
+      "encodingStats" : {
+        "dictStats" : {
+          "PLAIN_DICTIONARY" : 1
+        },
+        "dataStats" : {
+          "PLAIN_DICTIONARY" : 6
+        },
+        "usesV2Pages" : false
+      },
+      "properties" : {
+        "codec" : "GZIP",
+        "path" : {
+          "p" : [ "total_amount" ]
+        },
+        "type" : {
+          "name" : "total_amount",
+          "repetition" : "OPTIONAL",
+          "logicalTypeAnnotation" : null,
+          "id" : null,
+          "primitive" : "DOUBLE",
+          "length" : 0,
+          "decimalMeta" : null,
+          "columnOrder" : {
+            "columnOrderName" : "TYPE_DEFINED_ORDER"
+          }
+        },
+        "encodings" : [ "RLE", "PLAIN_DICTIONARY", "PLAIN" ]
+      },
+      "columnIndexReference" : null,
+      "offsetIndexReference" : null,
+      "bloomFilterOffset" : -1,
+      "firstDataPage" : -2105191206,
+      "dictionaryPageOffset" : -2105240042,
+      "valueCount" : -2144416882,
+      "totalSize" : -2142561537,
+      "totalUncompressedSize" : -2141983325,
+      "statistics" : {
+        "type" : {
+          "name" : "total_amount",
+          "repetition" : "OPTIONAL",
+          "logicalTypeAnnotation" : null,
+          "id" : null,
+          "primitive" : "DOUBLE",
+          "length" : 0,
+          "decimalMeta" : null,
+          "columnOrder" : {
+            "columnOrderName" : "TYPE_DEFINED_ORDER"
+          }
+        },
+        "comparator" : { },
+        "hasNonNullValue" : true,
+        "num_nulls" : 0,
+        "stringifier" : {
+          "name" : "DEFAULT_STRINGIFIER",
+          "digits" : "0123456789ABCDEF"
+        },
+        "max" : 1169.4,
+        "min" : -751.0
+      }
+    }, {
+      "rowGroupOrdinal" : 0,
+      "encodingStats" : {
+        "dictStats" : {
+          "PLAIN_DICTIONARY" : 1
+        },
+        "dataStats" : {
+          "PLAIN_DICTIONARY" : 2
+        },
+        "usesV2Pages" : false
+      },
+      "properties" : {
+        "codec" : "GZIP",
+        "path" : {
+          "p" : [ "congestion_surcharge" ]
+        },
+        "type" : {
+          "name" : "congestion_surcharge",
+          "repetition" : "OPTIONAL",
+          "logicalTypeAnnotation" : null,
+          "id" : null,
+          "primitive" : "DOUBLE",
+          "length" : 0,
+          "decimalMeta" : null,
+          "columnOrder" : {
+            "columnOrderName" : "TYPE_DEFINED_ORDER"
+          }
+        },
+        "encodings" : [ "RLE", "PLAIN_DICTIONARY", "PLAIN" ]
+      },
+      "columnIndexReference" : null,
+      "offsetIndexReference" : null,
+      "bloomFilterOffset" : -1,
+      "firstDataPage" : -2100317770,
+      "dictionaryPageOffset" : -2100317814,
+      "valueCount" : -2144416882,
+      "totalSize" : -2147232311,
+      "totalUncompressedSize" : -2146932196,
+      "statistics" : {
+        "type" : {
+          "name" : "congestion_surcharge",
+          "repetition" : "OPTIONAL",
+          "logicalTypeAnnotation" : null,
+          "id" : null,
+          "primitive" : "DOUBLE",
+          "length" : 0,
+          "decimalMeta" : null,
+          "columnOrder" : {
+            "columnOrderName" : "TYPE_DEFINED_ORDER"
+          }
+        },
+        "comparator" : { },
+        "hasNonNullValue" : true,
+        "num_nulls" : 71743,
+        "stringifier" : {
+          "name" : "DEFAULT_STRINGIFIER",
+          "digits" : "0123456789ABCDEF"
+        },
+        "max" : 2.5,
+        "min" : -2.5
+      }
+    }, {
+      "rowGroupOrdinal" : 0,
+      "encodingStats" : {
+        "dictStats" : {
+          "PLAIN_DICTIONARY" : 1
+        },
+        "dataStats" : {
+          "PLAIN_DICTIONARY" : 2
+        },
+        "usesV2Pages" : false
+      },
+      "properties" : {
+        "codec" : "GZIP",
+        "path" : {
+          "p" : [ "airport_fee" ]
+        },
+        "type" : {
+          "name" : "airport_fee",
+          "repetition" : "OPTIONAL",
+          "logicalTypeAnnotation" : null,
+          "id" : null,
+          "primitive" : "DOUBLE",
+          "length" : 0,
+          "decimalMeta" : null,
+          "columnOrder" : {
+            "columnOrderName" : "TYPE_DEFINED_ORDER"
+          }
+        },
+        "encodings" : [ "RLE", "PLAIN_DICTIONARY", "PLAIN" ]
+      },
+      "columnIndexReference" : null,
+      "offsetIndexReference" : null,
+      "bloomFilterOffset" : -1,
+      "firstDataPage" : -2100066310,
+      "dictionaryPageOffset" : -2100066352,
+      "valueCount" : -2144416882,
+      "totalSize" : -2147238084,
+      "totalUncompressedSize" : -2146930832,
+      "statistics" : {
+        "type" : {
+          "name" : "airport_fee",
+          "repetition" : "OPTIONAL",
+          "logicalTypeAnnotation" : null,
+          "id" : null,
+          "primitive" : "DOUBLE",
+          "length" : 0,
+          "decimalMeta" : null,
+          "columnOrder" : {
+            "columnOrderName" : "TYPE_DEFINED_ORDER"
+          }
+        },
+        "comparator" : { },
+        "hasNonNullValue" : true,
+        "num_nulls" : 71743,
+        "stringifier" : {
+          "name" : "DEFAULT_STRINGIFIER",
+          "digits" : "0123456789ABCDEF"
+        },
+        "max" : 1.25,
+        "min" : -1.25
+      }
+    } ],
+    "rowCount" : 3066766,
+    "totalByteSize" : 83210720,
+    "path" : null,
+    "ordinal" : 0,
+    "rowIndexOffset" : 0
+  } ]
+}

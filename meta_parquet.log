@@ -1,0 +1,53 @@
+
+File path:  yellow_tripdata_2023-01.parquet
+Created by: parquet-cpp-arrow version 8.0.0
+Properties:
+        pandas: {"index_columns": [], "column_indexes": [], "columns": [{"name": "VendorID", "field_name": "VendorID", "pandas_type": "int64", "numpy_type": "int64", "metadata": null}, {"name": "tpep_pickup_datetime", "field_name": "tpep_pickup_datetime", "pandas_type": "datetime", "numpy_type": "datetime64[ns]", "metadata": null}, {"name": "tpep_dropoff_datetime", "field_name": "tpep_dropoff_datetime", "pandas_type": "datetime", "numpy_type": "datetime64[ns]", "metadata": null}, {"name": "passenger_count", "field_name": "passenger_count", "pandas_type": "float64", "numpy_type": "float64", "metadata": null}, {"name": "trip_distance", "field_name": "trip_distance", "pandas_type": "float64", "numpy_type": "float64", "metadata": null}, {"name": "RatecodeID", "field_name": "RatecodeID", "pandas_type": "float64", "numpy_type": "float64", "metadata": null}, {"name": "store_and_fwd_flag", "field_name": "store_and_fwd_flag", "pandas_type": "unicode", "numpy_type": "object", "metadata": null}, {"name": "PULocationID", "field_name": "PULocationID", "pandas_type": "int64", "numpy_type": "int64", "metadata": null}, {"name": "DOLocationID", "field_name": "DOLocationID", "pandas_type": "int64", "numpy_type": "int64", "metadata": null}, {"name": "payment_type", "field_name": "payment_type", "pandas_type": "int64", "numpy_type": "int64", "metadata": null}, {"name": "fare_amount", "field_name": "fare_amount", "pandas_type": "float64", "numpy_type": "float64", "metadata": null}, {"name": "extra", "field_name": "extra", "pandas_type": "float64", "numpy_type": "float64", "metadata": null}, {"name": "mta_tax", "field_name": "mta_tax", "pandas_type": "float64", "numpy_type": "float64", "metadata": null}, {"name": "tip_amount", "field_name": "tip_amount", "pandas_type": "float64", "numpy_type": "float64", "metadata": null}, {"name": "tolls_amount", "field_name": "tolls_amount", "pandas_type": "float64", "numpy_type": "float64", "metadata": null}, {"name": "improvement_surcharge", "field_name": "improvement_surcharge", "pandas_type": "float64", "numpy_type": "float64", "metadata": null}, {"name": "total_amount", "field_name": "total_amount", "pandas_type": "float64", "numpy_type": "float64", "metadata": null}, {"name": "congestion_surcharge", "field_name": "congestion_surcharge", "pandas_type": "float64", "numpy_type": "float64", "metadata": null}, {"name": "airport_fee", "field_name": "airport_fee", "pandas_type": "float64", "numpy_type": "float64", "metadata": null}], "creator": {"library": "pyarrow", "version": "8.0.0"}, "pandas_version": "1.2.3"}
+  ARROW:schema: /////7gOAAAQAAAAAAAKAA4ABgAFAAgACgAAAAABBAAQAAAAAAAKAAwAAAAEAAgACgAAADQKAAAEAAAAAQAAAAwAAAAIAAwABAAIAAgAAAAIAAAAEAAAAAYAAABwYW5kYXMAAPwJAAB7ImluZGV4X2NvbHVtbnMiOiBbXSwgImNvbHVtbl9pbmRleGVzIjogW10sICJjb2x1bW5zIjogW3sibmFtZSI6ICJWZW5kb3JJRCIsICJmaWVsZF9uYW1lIjogIlZlbmRvcklEIiwgInBhbmRhc190eXBlIjogImludDY0IiwgIm51bXB5X3R5cGUiOiAiaW50NjQiLCAibWV0YWRhdGEiOiBudWxsfSwgeyJuYW1lIjogInRwZXBfcGlja3VwX2RhdGV0aW1lIiwgImZpZWxkX25hbWUiOiAidHBlcF9waWNrdXBfZGF0ZXRpbWUiLCAicGFuZGFzX3R5cGUiOiAiZGF0ZXRpbWUiLCAibnVtcHlfdHlwZSI6ICJkYXRldGltZTY0W25zXSIsICJtZXRhZGF0YSI6IG51bGx9LCB7Im5hbWUiOiAidHBlcF9kcm9wb2ZmX2RhdGV0aW1lIiwgImZpZWxkX25hbWUiOiAidHBlcF9kcm9wb2ZmX2RhdGV0aW1lIiwgInBhbmRhc190eXBlIjogImRhdGV0aW1lIiwgIm51bXB5X3R5cGUiOiAiZGF0ZXRpbWU2NFtuc10iLCAibWV0YWRhdGEiOiBudWxsfSwgeyJuYW1lIjogInBhc3Nlbmdlcl9jb3VudCIsICJmaWVsZF9uYW1lIjogInBhc3Nlbmdlcl9jb3VudCIsICJwYW5kYXNfdHlwZSI6ICJmbG9hdDY0IiwgIm51bXB5X3R5cGUiOiAiZmxvYXQ2NCIsICJtZXRhZGF0YSI6IG51bGx9LCB7Im5hbWUiOiAidHJpcF9kaXN0YW5jZSIsICJmaWVsZF9uYW1lIjogInRyaXBfZGlzdGFuY2UiLCAicGFuZGFzX3R5cGUiOiAiZmxvYXQ2NCIsICJudW1weV90eXBlIjogImZsb2F0NjQiLCAibWV0YWRhdGEiOiBudWxsfSwgeyJuYW1lIjogIlJhdGVjb2RlSUQiLCAiZmllbGRfbmFtZSI6ICJSYXRlY29kZUlEIiwgInBhbmRhc190eXBlIjogImZsb2F0NjQiLCAibnVtcHlfdHlwZSI6ICJmbG9hdDY0IiwgIm1ldGFkYXRhIjogbnVsbH0sIHsibmFtZSI6ICJzdG9yZV9hbmRfZndkX2ZsYWciLCAiZmllbGRfbmFtZSI6ICJzdG9yZV9hbmRfZndkX2ZsYWciLCAicGFuZGFzX3R5cGUiOiAidW5pY29kZSIsICJudW1weV90eXBlIjogIm9iamVjdCIsICJtZXRhZGF0YSI6IG51bGx9LCB7Im5hbWUiOiAiUFVMb2NhdGlvbklEIiwgImZpZWxkX25hbWUiOiAiUFVMb2NhdGlvbklEIiwgInBhbmRhc190eXBlIjogImludDY0IiwgIm51bXB5X3R5cGUiOiAiaW50NjQiLCAibWV0YWRhdGEiOiBudWxsfSwgeyJuYW1lIjogIkRPTG9jYXRpb25JRCIsICJmaWVsZF9uYW1lIjogIkRPTG9jYXRpb25JRCIsICJwYW5kYXNfdHlwZSI6ICJpbnQ2NCIsICJudW1weV90eXBlIjogImludDY0IiwgIm1ldGFkYXRhIjogbnVsbH0sIHsibmFtZSI6ICJwYXltZW50X3R5cGUiLCAiZmllbGRfbmFtZSI6ICJwYXltZW50X3R5cGUiLCAicGFuZGFzX3R5cGUiOiAiaW50NjQiLCAibnVtcHlfdHlwZSI6ICJpbnQ2NCIsICJtZXRhZGF0YSI6IG51bGx9LCB7Im5hbWUiOiAiZmFyZV9hbW91bnQiLCAiZmllbGRfbmFtZSI6ICJmYXJlX2Ftb3VudCIsICJwYW5kYXNfdHlwZSI6ICJmbG9hdDY0IiwgIm51bXB5X3R5cGUiOiAiZmxvYXQ2NCIsICJtZXRhZGF0YSI6IG51bGx9LCB7Im5hbWUiOiAiZXh0cmEiLCAiZmllbGRfbmFtZSI6ICJleHRyYSIsICJwYW5kYXNfdHlwZSI6ICJmbG9hdDY0IiwgIm51bXB5X3R5cGUiOiAiZmxvYXQ2NCIsICJtZXRhZGF0YSI6IG51bGx9LCB7Im5hbWUiOiAibXRhX3RheCIsICJmaWVsZF9uYW1lIjogIm10YV90YXgiLCAicGFuZGFzX3R5cGUiOiAiZmxvYXQ2NCIsICJudW1weV90eXBlIjogImZsb2F0NjQiLCAibWV0YWRhdGEiOiBudWxsfSwgeyJuYW1lIjogInRpcF9hbW91bnQiLCAiZmllbGRfbmFtZSI6ICJ0aXBfYW1vdW50IiwgInBhbmRhc190eXBlIjogImZsb2F0NjQiLCAibnVtcHlfdHlwZSI6ICJmbG9hdDY0IiwgIm1ldGFkYXRhIjogbnVsbH0sIHsibmFtZSI6ICJ0b2xsc19hbW91bnQiLCAiZmllbGRfbmFtZSI6ICJ0b2xsc19hbW91bnQiLCAicGFuZGFzX3R5cGUiOiAiZmxvYXQ2NCIsICJudW1weV90eXBlIjogImZsb2F0NjQiLCAibWV0YWRhdGEiOiBudWxsfSwgeyJuYW1lIjogImltcHJvdmVtZW50X3N1cmNoYXJnZSIsICJmaWVsZF9uYW1lIjogImltcHJvdmVtZW50X3N1cmNoYXJnZSIsICJwYW5kYXNfdHlwZSI6ICJmbG9hdDY0IiwgIm51bXB5X3R5cGUiOiAiZmxvYXQ2NCIsICJtZXRhZGF0YSI6IG51bGx9LCB7Im5hbWUiOiAidG90YWxfYW1vdW50IiwgImZpZWxkX25hbWUiOiAidG90YWxfYW1vdW50IiwgInBhbmRhc190eXBlIjogImZsb2F0NjQiLCAibnVtcHlfdHlwZSI6ICJmbG9hdDY0IiwgIm1ldGFkYXRhIjogbnVsbH0sIHsibmFtZSI6ICJjb25nZXN0aW9uX3N1cmNoYXJnZSIsICJmaWVsZF9uYW1lIjogImNvbmdlc3Rpb25fc3VyY2hhcmdlIiwgInBhbmRhc190eXBlIjogImZsb2F0NjQiLCAibnVtcHlfdHlwZSI6ICJmbG9hdDY0IiwgIm1ldGFkYXRhIjogbnVsbH0sIHsibmFtZSI6ICJhaXJwb3J0X2ZlZSIsICJmaWVsZF9uYW1lIjogImFpcnBvcnRfZmVlIiwgInBhbmRhc190eXBlIjogImZsb2F0NjQiLCAibnVtcHlfdHlwZSI6ICJmbG9hdDY0IiwgIm1ldGFkYXRhIjogbnVsbH1dLCAiY3JlYXRvciI6IHsibGlicmFyeSI6ICJweWFycm93IiwgInZlcnNpb24iOiAiOC4wLjAifSwgInBhbmRhc192ZXJzaW9uIjogIjEuMi4zIn0AAAAAEwAAABgEAADEAwAAhAMAAEwDAAAUAwAA4AIAAKQCAABoAgAALAIAAPABAAC8AQAAjAEAAFwBAAAoAQAA8AAAALAAAAB4AAAAOAAAAAQAAABE/P//AAABAxAAAAAcAAAABAAAAAAAAAALAAAAYWlycG9ydF9mZWUAevz//wAAAgB0/P//AAABAxAAAAAoAAAABAAAAAAAAAAUAAAAY29uZ2VzdGlvbl9zdXJjaGFyZ2UAAAAAtvz//wAAAgCw/P//AAABAxAAAAAgAAAABAAAAAAAAAAMAAAAdG90YWxfYW1vdW50AAAAAOr8//8AAAIA5Pz//wAAAQMQAAAAKAAAAAQAAAAAAAAAFQAAAGltcHJvdmVtZW50X3N1cmNoYXJnZQAAACb9//8AAAIAIP3//wAAAQMQAAAAIAAAAAQAAAAAAAAADAAAAHRvbGxzX2Ftb3VudAAAAABa/f//AAACAFT9//8AAAEDEAAAABwAAAAEAAAAAAAAAAoAAAB0aXBfYW1vdW50AACK/f//AAACAIT9//8AAAEDEAAAABgAAAAEAAAAAAAAAAcAAABtdGFfdGF4ALb9//8AAAIAsP3//wAAAQMQAAAAGAAAAAQAAAAAAAAABQAAAGV4dHJhAAAA4v3//wAAAgDc/f//AAABAxAAAAAcAAAABAAAAAAAAAALAAAAZmFyZV9hbW91bnQAEv7//wAAAgAM/v//AAABAhAAAAAgAAAABAAAAAAAAAAMAAAAcGF5bWVudF90eXBlAAAAAAD+//8AAAABQAAAAET+//8AAAECEAAAACAAAAAEAAAAAAAAAAwAAABET0xvY2F0aW9uSUQAAAAAOP7//wAAAAFAAAAAfP7//wAAAQIQAAAAIAAAAAQAAAAAAAAADAAAAFBVTG9jYXRpb25JRAAAAABw/v//AAAAAUAAAAC0/v//AAABBRAAAAAoAAAABAAAAAAAAAASAAAAc3RvcmVfYW5kX2Z3ZF9mbGFnAAAEAAQABAAAAOz+//8AAAEDEAAAABwAAAAEAAAAAAAAAAoAAABSYXRlY29kZUlEAAAi////AAACABz///8AAAEDEAAAACAAAAAEAAAAAAAAAA0AAAB0cmlwX2Rpc3RhbmNlAAAAVv///wAAAgBQ////AAABAxAAAAAgAAAABAAAAAAAAAAPAAAAcGFzc2VuZ2VyX2NvdW50AIr///8AAAIAhP///wAAAQoQAAAAKAAAAAQAAAAAAAAAFQAAAHRwZXBfZHJvcG9mZl9kYXRldGltZQAAAMb///8AAAMAwP///wAAAQoQAAAALAAAAAQAAAAAAAAAFAAAAHRwZXBfcGlja3VwX2RhdGV0aW1lAAAGAAgABgAGAAAAAAADABAAFAAIAAYABwAMAAAAEAAQAAAAAAABAhAAAAAkAAAABAAAAAAAAAAIAAAAVmVuZG9ySUQAAAAACAAMAAgABwAIAAAAAAAAAUAAAAA=
+Schema:
+message schema {
+  optional int64 VendorID;
+  optional int64 tpep_pickup_datetime (TIMESTAMP(MICROS,false));
+  optional int64 tpep_dropoff_datetime (TIMESTAMP(MICROS,false));
+  optional double passenger_count;
+  optional double trip_distance;
+  optional double RatecodeID;
+  optional binary store_and_fwd_flag (STRING);
+  optional int64 PULocationID;
+  optional int64 DOLocationID;
+  optional int64 payment_type;
+  optional double fare_amount;
+  optional double extra;
+  optional double mta_tax;
+  optional double tip_amount;
+  optional double tolls_amount;
+  optional double improvement_surcharge;
+  optional double total_amount;
+  optional double congestion_surcharge;
+  optional double airport_fee;
+}
+
+
+Row group 0:  count: 3066766  15.54 B records  start: 4  total(compressed): 45.453 MB total(uncompressed):79.356 MB 
+--------------------------------------------------------------------------------
+                       type      encodings count     avg size   nulls   min / max
+VendorID               INT64     G _ R     3066766   0.11 B     0       "1" / "2"
+tpep_pickup_datetime   INT64     G _ R_ F  3066766   3.72 B     0       "2008-12-31T23:01:42.000000" / "2023-02-01T00:56:53.000000"
+tpep_dropoff_datetime  INT64     G _ R_ F  3066766   3.83 B     0       "2009-01-01T14:29:11.000000" / "2023-02-02T09:28:47.000000"
+passenger_count        DOUBLE    G _ R     3066766   0.20 B     71743   "-0.0" / "9.0"
+trip_distance          DOUBLE    G _ R     3066766   1.40 B     0       "-0.0" / "258928.15"
+RatecodeID             DOUBLE    G _ R     3066766   0.07 B     71743   "1.0" / "99.0"
+store_and_fwd_flag     BINARY    G _ R     3066766   0.01 B     71743   "N" / "Y"
+PULocationID           INT64     G _ R     3066766   0.74 B     0       "1" / "265"
+DOLocationID           INT64     G _ R     3066766   1.00 B     0       "1" / "265"
+payment_type           INT64     G _ R     3066766   0.13 B     0       "0" / "4"
+fare_amount            DOUBLE    G _ R     3066766   1.01 B     0       "-900.0" / "1160.1"
+extra                  DOUBLE    G _ R     3066766   0.25 B     0       "-7.5" / "12.5"
+mta_tax                DOUBLE    G _ R     3066766   0.03 B     0       "-0.5" / "53.16"
+tip_amount             DOUBLE    G _ R     3066766   1.13 B     0       "-96.22" / "380.8"
+tolls_amount           DOUBLE    G _ R     3066766   0.12 B     0       "-65.0" / "196.99"
+improvement_surcharge  DOUBLE    G _ R     3066766   0.02 B     0       "-1.0" / "1.0"
+total_amount           DOUBLE    G _ R     3066766   1.60 B     0       "-751.0" / "1169.4"
+congestion_surcharge   DOUBLE    G _ R     3066766   0.08 B     71743   "-2.5" / "2.5"
+airport_fee            DOUBLE    G _ R     3066766   0.08 B     71743   "-1.25" / "1.25"
+
